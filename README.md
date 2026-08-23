@@ -1,16 +1,16 @@
-# LK Vector
+# FlickGene
 
 [中文](#中文) | [English](#english)
 
-LK Vector 是一款面向分子生物学和基因工程工作的桌面 DNA 序列编辑器。本仓库仅用于发布可安装版本，不包含应用源代码。
+FlickGene 是一款面向分子生物学和基因工程工作的桌面 DNA 序列编辑器。本仓库仅用于发布可安装版本，不包含应用源代码。
 
-LK Vector is a desktop DNA sequence editor for molecular biology and genetic engineering workflows. This repository distributes installable builds only and does not contain the application source code.
+FlickGene is a desktop DNA sequence editor for molecular biology and genetic engineering workflows. This repository distributes installable builds only and does not contain the application source code.
 
 ## 中文
 
 ### 软件简介
 
-LK Vector 用于查看、编辑和分析 DNA、质粒及其他核酸序列。它将环形质粒图、线性图和碱基序列视图整合在同一工作区中，适合质粒设计、载体检查、Feature 标注和序列比对等日常工作。
+FlickGene 用于查看、编辑和分析 DNA、质粒及其他核酸序列。它将环形质粒图、线性图和碱基序列视图整合在同一工作区中，适合质粒设计、载体检查、Feature 标注和序列比对等日常工作。
 
 ### 主要功能
 
@@ -30,8 +30,8 @@ LK Vector 用于查看、编辑和分析 DNA、质粒及其他核酸序列。它
 
 目前 Beta 版本仅提供 **Windows x64** 安装包。
 
-1. 打开 [Releases](https://github.com/new-agent-lk/lk-vector-releases/releases) 页面。
-2. 下载最新版本的 `LK-Vector-*-x64.exe`。
+1. 打开 [Releases](https://github.com/new-agent-lk/flickgene-releases/releases) 页面。
+2. 下载最新版本的 `FlickGene-*-x64.exe`。
 3. 运行安装程序并按照提示完成安装。
 
 Linux 和 macOS 版本正在评估中，发布时间待定。
@@ -52,20 +52,20 @@ Linux 和 macOS 版本正在评估中，发布时间待定。
 每个 Release 同时提供 SHA-256 校验文件。可在 PowerShell 中验证安装包：
 
 ```powershell
-Get-FileHash .\LK-Vector-0.1.0-beta.1-x64.exe -Algorithm SHA256
+Get-FileHash .\FlickGene-0.1.0-beta.1-x64.exe -Algorithm SHA256
 ```
 
 将输出值与 Release 中的 `SHA256SUMS-*.txt` 对比。
 
 ### 源代码说明
 
-LK Vector 当前以闭源方式发布。本仓库仅包含 README 和编译后的发行附件，不提供应用源代码。
+FlickGene 当前以闭源方式发布。本仓库仅包含 README 和编译后的发行附件，不提供应用源代码。
 
 ## English
 
 ### About
 
-LK Vector is a desktop application for viewing, editing, and analyzing DNA, plasmid, and other nucleotide sequences. Circular plasmid maps, linear maps, and base-level sequence views are combined in one workspace for plasmid design, vector inspection, feature annotation, and sequence comparison.
+FlickGene is a desktop application for viewing, editing, and analyzing DNA, plasmid, and other nucleotide sequences. Circular plasmid maps, linear maps, and base-level sequence views are combined in one workspace for plasmid design, vector inspection, feature annotation, and sequence comparison.
 
 ### Key Features
 
@@ -85,8 +85,8 @@ LK Vector is a desktop application for viewing, editing, and analyzing DNA, plas
 
 The current Beta is available for **Windows x64 only**.
 
-1. Open the [Releases](https://github.com/new-agent-lk/lk-vector-releases/releases) page.
-2. Download the latest `LK-Vector-*-x64.exe` installer.
+1. Open the [Releases](https://github.com/new-agent-lk/flickgene-releases/releases) page.
+2. Download the latest `FlickGene-*-x64.exe` installer.
 3. Run the installer and follow the setup prompts.
 
 Linux and macOS builds are under evaluation and do not have release dates yet.
@@ -107,15 +107,15 @@ This is a public Beta intended for evaluation and general sequence-analysis work
 Each Release includes a SHA-256 checksum file. Verify the installer in PowerShell with:
 
 ```powershell
-Get-FileHash .\LK-Vector-0.1.0-beta.1-x64.exe -Algorithm SHA256
+Get-FileHash .\FlickGene-0.1.0-beta.1-x64.exe -Algorithm SHA256
 ```
 
 Compare the result with the corresponding `SHA256SUMS-*.txt` file from the Release.
 
 ### Source Code
 
-LK Vector is currently distributed as proprietary software. This repository contains only this README and compiled release assets; application source code is not published here.
+FlickGene is currently distributed as proprietary software. This repository contains only this README and compiled release assets; application source code is not published here.
 
 ## Releases
 
-[Download the latest LK Vector release](https://github.com/new-agent-lk/lk-vector-releases/releases/latest)
+[Download FlickGene v0.1.0 Beta 1](https://github.com/new-agent-lk/flickgene-releases/releases/tag/v0.1.0-beta.1)
